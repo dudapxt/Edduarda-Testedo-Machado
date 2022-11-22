@@ -1,0 +1,125 @@
+:root{
+    --COR1: #614729;
+    --COR2: #E6B277;
+    --COR3: #E0A45E;
+    --COR4: #70573A;
+    --COR5: #AD7E49;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--COR5);
+}
+
+header{
+    background-image: linear-gradient(to top, color var(--COR4), color var(--COR1));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 75px;
+}
+
+h1{
+    color: rgb(26, 14, 3);
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+header > p{
+    color:#442302;
+    text-align: center;
+}
+
+nav{
+    background-color: var(--COR1);
+    padding: 10px;
+    box-shadow: 1px 2px 6px 3px var(--COR2);
+}
+
+nav > a{
+    color: rgb(29, 19, 5);
+    padding: 10px ;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+nav > a:hover{
+    background-color: #a36e31;
+    color: var(--COR2);
+}
+
+main{
+    background-color: var(--COR2);
+    min-width: 320px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px -1px 6px 2px black;
+}
+
+h2{
+    background-image: linear-gradient(to right, color rgb(27, 17, 1) transparent);
+    margin: 14px 0px;
+}
+
+p{
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 40px;
+    margin: 15px 0;
+}
+
+pre{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+iframe{
+    margin: 15px;
+    border:  6px solid color rgb(231, 143, 10);
+    width: 80%;
+}
+
+img{
+    width: 30%;
+    border:  6px solid #442302;
+}
+
+figcaption{
+    font-size: 12px;
+}
+
+aside{
+    background-color: var(--COR5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+aside > ul{
+    list-style-position: inside;
+    text-align: justify;
+}
+
+aside > h3{
+    background-color: #442302;
+    color: var(--COR2);
+    padding: 10px;
+    font-weight: 600;
+    margin: -15px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+footer > p{
+    font-size: 13px;
+    text-align: center;
+}
